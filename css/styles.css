@@ -16,6 +16,8 @@
   --footer-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
   --footer-links-color: rgba(255, 255, 255, 0.6);
+  --adress-text-color: #ffffff;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -99,6 +101,15 @@ body {
 }
 
 .button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
   color: var(--button-text-color);
   background-color: var(--accent);
 }
@@ -175,7 +186,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--adress-text-color);
   text-decoration: none;
   font-style: normal;
 }
@@ -186,7 +197,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: var(--footer-links-color);
+  color: var(--contacts-footer-color);
   text-decoration: none;
   font-style: normal;
 }
